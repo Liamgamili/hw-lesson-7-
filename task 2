@@ -1,0 +1,14 @@
+# p20 2
+grade = int(input('enter grade:'))
+if grade < 55:
+    print('not_enough')
+elif grade < 64 and grade >= 55:
+    print('enough')
+elif grade < 74 and grade >= 65:
+    print('alomost good')
+elif grade < 84 and grade >= 75:
+    print('good')
+elif grade < 94 and grade >= 85:
+    print('very good')
+elif grade > 95:
+    print('exellent')

@@ -1,0 +1,4 @@
+#task 7
+n = int(input('enter tlat num'))
+n = n//100
+print(n)

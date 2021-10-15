@@ -1,0 +1,5 @@
+#task 8
+n = int(input('enter dou num'))
+y = n % 10
+n = n // 10
+print(n*10 + y)
